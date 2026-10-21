@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+myenv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local documents and data
+data/
+
+# macOS
+.DS_Store

@@ -1,0 +1,317 @@
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+.stApp {
+    background: #f7f8fc;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+.block-container {
+    max-width: 1250px;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+
+/* =========================================================
+   SIDEBAR
+========================================================= */
+
+section[data-testid="stSidebar"] {
+    background: #ffffff;
+    border-right: 1px solid #e7e9ef;
+}
+
+.brand {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #111827;
+    margin-bottom: 2px;
+}
+
+.brand-accent {
+    color: #635bff;
+}
+
+.brand-subtitle {
+    color: #8a8f9d;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.sidebar-heading {
+    color: #8a8f9d;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar-info {
+    color: #7b8190;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    color: #111827;
+    font-size: 43px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    line-height: 1.15;
+    margin-bottom: 8px;
+}
+
+.hero-accent {
+    color: #635bff;
+}
+
+.hero-description {
+    color: #737887;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+========================================================= */
+
+.section-label {
+    color: #8a8f9d;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    color: #171a24;
+    font-size: 25px;
+    font-weight: 750;
+    letter-spacing: -0.5px;
+    margin-bottom: 18px;
+}
+
+
+/* =========================================================
+   UPLOAD AREA
+========================================================= */
+
+.upload-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 26px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 18px rgba(17, 24, 39, 0.035);
+}
+
+.upload-title {
+    color: #171a24;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.upload-description {
+    color: #7b8190;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   EMPTY STATE
+========================================================= */
+
+.empty-state {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 65px 30px;
+    text-align: center;
+    margin-top: 22px;
+    box-shadow: 0 4px 18px rgba(17, 24, 39, 0.035);
+}
+
+.empty-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 18px auto;
+    border-radius: 16px;
+    background: #f0efff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+}
+
+.empty-title {
+    color: #171a24;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.empty-description {
+    color: #858b99;
+    font-size: 14px;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   DOCUMENT CARDS
+========================================================= */
+
+.document-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 13px;
+    padding: 14px 16px;
+    margin-bottom: 9px;
+    box-shadow: 0 2px 8px rgba(17, 24, 39, 0.025);
+}
+
+.document-icon {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    border-radius: 9px;
+    background: #f0efff;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.document-name {
+    color: #272b36;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.document-type {
+    color: #9297a4;
+    font-size: 12px;
+    margin-left: 52px;
+    margin-top: -4px;
+}
+
+
+/* =========================================================
+   STATUS
+========================================================= */
+
+.status {
+    background: #f0efff;
+    border: 1px solid #dedbff;
+    color: #5047c7;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+
+/* =========================================================
+   MODE CARD
+========================================================= */
+
+.mode-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 22px;
+    margin-bottom: 20px;
+}
+
+.mode-title {
+    color: #171a24;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.mode-description {
+    color: #7b8190;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.stButton > button {
+    background: #635bff;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    min-height: 44px;
+    font-weight: 650;
+}
+
+.stButton > button:hover {
+    background: #5148e5;
+    color: white;
+}
+
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.stTextInput > div > div > input {
+    border-radius: 10px;
+    border: 1px solid #dfe2ea;
+    min-height: 46px;
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   FILE UPLOADER
+========================================================= */
+
+[data-testid="stFileUploader"] {
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+hr {
+    border-color: #e8eaf0;
+}
