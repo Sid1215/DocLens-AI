@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 from pathlib import Path
 
@@ -222,8 +223,9 @@ else:
 
     for uploaded_file in uploaded_files:
 
-        file_path = f"data/{uploaded_file.name}"
-
+        # Ensure the upload directory exists in cloud deployments.
+        os.makedirs("data", exist_ok=True)
+        file_path = os.path.join("data", uploaded_file.name)
 
         with open(file_path, "wb") as file:
 
